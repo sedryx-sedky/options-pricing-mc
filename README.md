@@ -13,8 +13,8 @@ $$
 Option prices are computed as discounted expected payoffs,
 
 $$
-V = e^{-rT} \mathbb{E}^\mathbb{Q} \left[ \Pi((S_t)_{t\in[0,T]})\right],
+V = r^{-rT} \mathbb{E}^\mathbb{Q} \left[ \Pi\left((S_t)_{t\in[0,T]}\right)\right],
 $$
 
-where Π may depend on the full price path. Path-dependent payoffs generally
+where $\Pi$ may depend on the full price path. Path-dependent payoffs generally
 preclude closed-form solutions, motivating the use of Monte Carlo simulation.
